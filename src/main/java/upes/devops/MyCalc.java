@@ -4,9 +4,7 @@ public class MyCalc {
 	
 	public int sum(int a, int b)
 	{
-		int c,d;
-		c=10+5;
-		return c;
+		return a+b;
 	}
 	public int diff(int a, int b)
 	{
@@ -29,6 +27,7 @@ public class MyCalc {
 		System.out.println("Mul is :"+calc.mul(20, 10));
 		System.out.println("Div is :"+calc.div(20, 10));
 		System.out.println("Hello Jenkins");
+		System.out.println("Hello Poll SCM");
 	}
 
 }
